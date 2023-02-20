@@ -23,7 +23,7 @@ São definidos ainda:
 ### 2 - Executando o app Flask:
 
 - Navegue até o diretório `app`
-- instale as depêndencias utilizando `pip3 install -r requirements.py`
+- instale as depêndencias utilizando `pip3 install -r requirements.txt`
 - Execute o arquivo 'app.py': `python3 app.py`
 
 ### Testando a API e Websockets
