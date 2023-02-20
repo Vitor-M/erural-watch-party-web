@@ -1,0 +1,12 @@
+FROM postgres:latest
+
+ENV POSTGRES_DB watch_party_db
+ENV POSTGRES_PASSWORD admin123
+
+COPY init.sql /docker-entrypoint-initdb.d/
+
+EXPOSE 5432
+
+# to run
+# docker build -t postgres-watch-party .
+# docker run --name postgres-watch-party -p 5432:5432 -e POSTGRES_PASSWORD=your_password -d postgres-watch-party
