@@ -39,3 +39,5 @@ Para testar a api você pode executar o comando `python3 seed.py`, que populara 
 #### Teste a sincronização com WebSockets:
 
 Para testar a comunicação utilizando websockets, execute o comando `python3 websocket_clients.py` em **'app/test_scripts'** num terminal iterativo, ele fornecerá um menu simplificado que permitirá o envio e recebimento de mensagens. Rode o script em mais de um terminal, conecte dois participantes numa mesma sala e verifique que a comunicação entre eles e o servidor é sincronizada.
+
+**Você pode ainda construir a interface web do app, e testar suas funcionalidades, seguindos as instruções contidas em [erural-watch-party-ui](https://github.com/Vitor-M/erural-watch-party-ui/)**
