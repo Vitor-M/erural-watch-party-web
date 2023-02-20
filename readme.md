@@ -28,7 +28,7 @@ São definidos ainda:
 
 ### Testando a API e Websockets
 
-Você pode realizar um teste simplificado das funcionalidades implementadas no projeto, através dos scripts disponibilizados em **'app/test_scripts'**
+Você pode realizar um teste simplificado das funcionalidades implementadas no projeto, através dos scripts disponibilizados.
 
 #### Teste da API:
 
@@ -38,4 +38,4 @@ Para testar a api você pode executar o comando `python3 seed.py`, que populara 
 
 #### Teste a sincronização com WebSockets:
 
-Para testar a comunicação utilizando websockets, execute o comando `python3 websocket_clients.py` num terminal iterativo, ele fornecerá um menu simplificado que permitirá o envio e recebimento de mensagens. Rode o script em mais de um terminal, conecte dois participantes numa mesma sala e verifique que a comunicação entre eles e o servidor é sincronizada.
+Para testar a comunicação utilizando websockets, execute o comando `python3 websocket_clients.py` em **'app/test_scripts'** num terminal iterativo, ele fornecerá um menu simplificado que permitirá o envio e recebimento de mensagens. Rode o script em mais de um terminal, conecte dois participantes numa mesma sala e verifique que a comunicação entre eles e o servidor é sincronizada.
